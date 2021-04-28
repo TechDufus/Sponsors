@@ -31,7 +31,7 @@ The above workflow will render the following table in your root README.md file i
 
 -----
 <!-- SPONSOR-LIST:START -->
-# Thanks to all of my Supporters!
+# Thanks to all of my Supporters
 
 ## GitHub Supporters
 [<img src="https://github.com/matthewjdegarmo.png" alt="matthewjdegarmo" width="125"/>](https://github.com/matthewjdegarmo)
@@ -49,7 +49,7 @@ The above workflow will render the following table in your root README.md file i
 Content of this BACKERS.yaml file.
 
 ```md
-MainHeading: Thanks to all of my Supporters!
+MainHeading: Thanks to all of my Supporters
 
 Platforms:
   - GitHub:
