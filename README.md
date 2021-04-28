@@ -7,25 +7,23 @@ This defaults to the README.md at the root of your repository (which is the file
 <!-- SPONSORS-LIST:END -->
 ```
 
-In your repository workflow file, you provide the path to your BACKERS.md file that you want to make up your Sponsors section. Here's an example workflow that will run every hour.
+In your repository workflow file, you provide the path to your SPONSORS.yaml file that you want to make up your Sponsors section. Here's an example workflow that will run when SPONSORS.yaml receives a change.
 
 ```yaml
 name: Update Sponsors
 on:
-  schedule:
-  #runs every hour
-  - cron: '0 * * * *'
-  workflow_dispatch:
+  push:
+    path: "./SPONSORS.yaml"
 
 jobs:
   update-sponsors-section:
-    name: Update this repo's README my sponsors.
+    name: Update this repo's README's sponsors.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: matthewjdegarmo/Sponsors@latest
         with:
-          sponsors_file: ./BACKERS.yaml
+          sponsors_file: ./SPONSORS.yaml
 ```
 The above workflow will render the following table in your root README.md file in your repository.
 
