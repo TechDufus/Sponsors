@@ -44,7 +44,7 @@ The above workflow will render the following table in your root README.md file i
 [![Twitch Status](https://img.shields.io/badge/ghostyjungle-black?logo=twitch)](https://twitch.tv/ghostyjungle)
 <!-- SPONSOR-LIST:END -->
 -----
-Content of this BACKERS.yaml file.
+Content of this SPONSORS.yaml file.
 
 ```md
 MainHeading: Thanks to all of my Supporters
