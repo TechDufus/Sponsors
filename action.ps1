@@ -120,13 +120,6 @@ Process {
     #TODO: Create Pre section blanking-out logic if SPONSORS starts the file.
     
     $PreSectionContent = $ReadMeContent[0..($StartIndex - 1)]
-    # $CurrentSection = $Sponsors[$StartIndex..$EndIndex]
-
-    # If ([System.String]::IsNullOrWhiteSpace($ReadMeContent[-1])) {
-    #     $SubtractIndex = 2
-    # } Else {
-    #     $SubtractIndex = 1
-    # }
     $EndOfFileIndex = ($ReadMeContent.Count - 1)
     
     #If section is the end of the file, we need to blank out the Post section.
