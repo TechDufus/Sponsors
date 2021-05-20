@@ -4,7 +4,25 @@ This defaults to the README.md at the root of your repository (which is the file
 
 ```
 <!-- SPONSORS-LIST:START -->
-<!-- SPONSORS-LIST:END -->
+# Thanks to all of my Supporters
+
+## GitHub Sponsors
+
+[<img src="https://github.com/matthewjdegarmo.png" alt="matthewjdegarmo" width="145"/>](https://github.com/matthewjdegarmo)
+[<img src="https://github.com/brrees01.png" alt="brrees01" width="145"/>](https://github.com/brrees01)
+[<img src="https://github.com/ctmcisco.png" alt="ctmcisco" width="145"/>](https://github.com/ctmcisco)
+[<img src="https://github.com/EdwardHanlon.png" alt="EdwardHanlon" width="145"/>](https://github.com/EdwardHanlon)
+[<img src="https://github.com/packersking.png" alt="packersking" width="145"/>](https://github.com/packersking)
+
+## Twitch Sponsors
+
+[![Twitch](https://img.shields.io/badge/matthewjdegarmo-black?logo=twitch)](https://twitch.tv/matthewjdegarmo)
+[![Twitch](https://img.shields.io/badge/brettmillerit-black?logo=twitch)](https://twitch.tv/brettmillerit)
+[![Twitch](https://img.shields.io/badge/ghostyjungle-black?logo=twitch)](https://twitch.tv/ghostyjungle)
+[![Twitch](https://img.shields.io/badge/matthewjdegarmo-black?logo=twitch)](https://twitch.tv/matthewjdegarmo)
+
+<!-- SPONSORS-LIST:START -->
+
 ```
 
 In your repository workflow file, you provide the path to your SPONSORS.yaml file that you want to make up your Sponsors section. Here's an example workflow that will run when SPONSORS.yaml receives a change.
@@ -44,7 +62,7 @@ The above workflow will render the following table in your root README.md file i
 [![Twitch Status](https://img.shields.io/badge/ghostyjungle-black?logo=twitch)](https://twitch.tv/ghostyjungle)
 <!-- SPONSOR-LIST:END -->
 -----
-Content of this BACKERS.yaml file.
+Content of this SPONSORS.yaml file.
 
 ```md
 MainHeading: Thanks to all of my Supporters
@@ -63,3 +81,4 @@ Platforms:
     - ghostyjungle
 
 ```
+
