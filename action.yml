@@ -17,15 +17,15 @@ inputs:
     required: false
   commit_message:
     description: "Commit message used while committing to the repo"
-    default: "Updated MyTop8 section with current list of users."
+    default: "Updated Sponsors section with current list of users."
     required: false
   committer_username:
     description: "Username used while committing to the repo"
-    default: "MyTop8-post-bot"
+    default: "Sponsors-post-bot"
     required: false
   committer_email:
     description: "Email id used while committing to the repo"
-    default: "MyTop8-post-bot@matthewjdegarmo.com"
+    default: "Sponsors-post-bot@matthewjdegarmo.com"
     required: false
   photo_pixel_length:
     description: "Default is 145px. Provide the number of pixels to use for the length / width of any profile photos that are used."

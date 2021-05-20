@@ -163,5 +163,5 @@ Process {
         CommitterUsername = $CommitterUsername
         CommitterEmail    = $CommitterEmail
     }
-    # Commit-GitRepo @commitGitRepoSplat
+    Commit-GitRepo @commitGitRepoSplat
 }    
