@@ -42,6 +42,7 @@ jobs:
       - uses: matthewjdegarmo/Sponsors@latest
         with:
           sponsors_file: ./SPONSORS.yaml
+          readme_file: ./README.MD
 ```
 The above workflow will render the following table in your root README.md file in your repository.
 
