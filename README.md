@@ -21,7 +21,7 @@ This defaults to the README.md at the root of your repository (which is the file
 [![Twitch](https://img.shields.io/badge/ghostyjungle-black?logo=twitch)](https://twitch.tv/ghostyjungle)
 [![Twitch](https://img.shields.io/badge/matthewjdegarmo-black?logo=twitch)](https://twitch.tv/matthewjdegarmo)
 
-<!-- SPONSORS-LIST:START -->
+<!-- SPONSORS-LIST:END -->
 
 ```
 
@@ -42,7 +42,7 @@ jobs:
       - uses: matthewjdegarmo/Sponsors@latest
         with:
           sponsors_file: ./SPONSORS.yaml
-          readme_file: ./README.MD
+          readme_file: ./README.md
 ```
 The above workflow will render the following table in your root README.md file in your repository.
 
