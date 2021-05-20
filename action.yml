@@ -1,7 +1,9 @@
 name: 'Sponsors Workflow'
 author: 'matthewjdegarmo'
 description: 'Create a Sponsors section in your ReadMe.md file for any donors / sponsors you want to have listed.'
-icon: award
+branding:
+  icon: 'award'  
+  color: 'green'
 
 inputs:
   sponsors_file:
