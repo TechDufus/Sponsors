@@ -14,7 +14,7 @@ In your repository workflow file, you provide the path to your SPONSORS.yaml fil
 name: Update Sponsors
 on:
   push:
-    path: "./SPONSORS.yaml"
+    path: "./.github/SPONSORS.yml"
 
 jobs:
   update-sponsors-section:
@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: matthewjdegarmo/Sponsors@latest
         with:
-          sponsors_file: ./SPONSORS.yaml
+          sponsors_file: ./.github/SPONSORS.yaml
           readme_file: ./README.md
 ```
 The above workflow will render the following table in your root README.md file in your repository.
@@ -38,7 +38,7 @@ The above workflow will render the following table in your root README.md file i
 [<img src="https://github.com/brrees01.png" alt="brrees01" width="125"/>](https://github.com/brrees01)
 [<img src="https://github.com/ctmcisco.png" alt="ctmcisco" width="125"/>](https://github.com/ctmcisco)
 [<img src="https://github.com/EdwardHanlon.png" alt="EdwardHanlon" width="125"/>](https://github.com/EdwardHanlon)
-[<img src="https://github.com/packersking.png" alt="packersking" width="125"/>](https://github.com/packersking)
+[<img src="https://github.com/thefirstnoe1.png" alt="thefirstnoe1" width="125"/>](https://github.com/thefirstnoe1)
 
 ## Twitch Supporters
 [![Twitch Status](https://img.shields.io/badge/matthewjdegarmo-black?logo=twitch)](https://twitch.tv/matthewjdegarmo)
@@ -57,7 +57,7 @@ Platforms:
     - brrees01
     - ctmcisco
     - EdwardHanlon
-    - packersking
+    - thefirstnoe1
 
   - Twitch:
     - matthewjdegarmo
