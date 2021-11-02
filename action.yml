@@ -38,10 +38,10 @@ runs:
   steps:
     - run: >
         ${{ github.action_path }}/action.ps1
-        -ReadMePath        ${{ inputs.readme_file }}
-        -SponsorsPath      ${{ inputs.sponsors_file }}
-        -CommitMessage     ${{ inputs.commit_message }}
-        -CommitterUsername ${{ inputs.committer_username }}
-        -CommitterEmail    ${{ inputs.committer_email }}
-        -PhotoPixelLength  ${{ inputs.photo_pixel_length }}
+        -ReadMePath        "${{ inputs.readme_file }}"
+        -SponsorsPath      "${{ inputs.sponsors_file }}"
+        -CommitMessage     "${{ inputs.commit_message }}"
+        -CommitterUsername "${{ inputs.committer_username }}"
+        -CommitterEmail    "${{ inputs.committer_email }}"
+        -PhotoPixelLength  "${{ inputs.photo_pixel_length }}"
       shell: pwsh
